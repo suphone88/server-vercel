@@ -1,7 +1,9 @@
 // prod.js -
 module.exports = {
-  googleClientID: process.env.GOOGLE_CLIENT_ID,
-  googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
-  mongoURI: process.env.MONGO_URI,
-  cookieKey: process.env.COOKIE_KEY,
+  googleClientID:
+    "967569194656-2gganjqb136ha2rrrc776u4m6a62f6qd.apps.googleusercontent.com",
+  googleClientSecret: "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",
+  mongoURI:
+    "mongodb+srv://netninja:Y8HxPeseo98w27n4@nodetuts.okytrdd.mongodb.net/test?retryWrites=true&w=majority",
+  cookieKey: "dfjoeioreoref;eifo",
 };
