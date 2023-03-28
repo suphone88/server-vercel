@@ -7,7 +7,7 @@ class Header extends Component {
     console.log(this.props.auth);
     switch (this.props.auth) {
       case null:
-        return;
+        return <li> Loading ... </li>;
       case false:
         return (
           <li>
