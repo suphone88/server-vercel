@@ -3,7 +3,7 @@ module.exports = function (app) {
   app.use(
     ["/api", "/auth/google"],
     createProxyMiddleware({
-      target: "https://server-vercel-2whz.vercel.app/auth/google",
+      target: "http://localhost:5000",
     })
   );
 };
