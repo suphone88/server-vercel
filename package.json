@@ -7,8 +7,7 @@
     "start": "node index",
     "server": "nodemon index",
     "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "build": "uglifyjs index.js -o index.min.js"
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
@@ -21,8 +20,7 @@
     "http-proxy-middleware": "^2.0.6",
     "mongoose": "^7.0.3",
     "passport": "^0.5.3",
-    "passport-google-oauth20": "^2.0.0",
-    "uglify-js": "^3.17.4"
+    "passport-google-oauth20": "^2.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
