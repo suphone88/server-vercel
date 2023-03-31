@@ -3,5 +3,5 @@ import axios from "axios";
 export default axios.create({
   //baseURL: "http://localhost:5000",
 
-  baseURL: "https://node-js-test-api-nine.vercel.app/auth/google",
+  baseURL: "https://server-vercel-2whz.vercel.app",
 });
