@@ -1,7 +1,0 @@
-import axios from "axios";
-//import setupProxy from "../setupProxy";
-
-export default axios.create({
-  baseURL: "http://localhost:5000",
-  //baseURL: "https://node-js-test-api-nine.vercel.app",
-});
