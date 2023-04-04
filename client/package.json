@@ -1,4 +1,9 @@
 {
+  "proxy": {
+    "/auth/google": {
+      "target": "https://server-vercel-2whz.vercel.app"
+    }
+  },
   "name": "client",
   "version": "0.1.0",
   "private": true,

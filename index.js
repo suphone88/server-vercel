@@ -11,6 +11,9 @@ mongoose.connect(keys.mongoURI);
 
 const app = express();
 
+const cors = require("cors");
+app.use(cors({ origin: "http://localhost:3000" }));
+
 app.use(
   cookieSession({
     maxAge: 30 * 24 * 60 * 60 * 1000,
