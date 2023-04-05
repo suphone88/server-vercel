@@ -1,9 +1,5 @@
 {
-  "proxy": {
-    "/auth/google": {
-      "target": "https://server-vercel-2whz.vercel.app"
-    }
-  },
+  "homepage": "http://suphone88.github.io/server-vercel",
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -26,6 +22,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
