@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/server-vercel/static/css/main.364023d3.css",
+    "main.js": "/server-vercel/static/js/main.33597741.js",
+    "index.html": "/server-vercel/index.html",
+    "main.364023d3.css.map": "/server-vercel/static/css/main.364023d3.css.map",
+    "main.33597741.js.map": "/server-vercel/static/js/main.33597741.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.364023d3.css",
+    "static/js/main.33597741.js"
+  ]
+}
